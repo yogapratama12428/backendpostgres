@@ -10,7 +10,7 @@
   },
    "engines": {
     "node": "16.x",
-    "npm": "8.4x"
+    "npm": "7.x"
   },
   "keywords": [],
   "author": "",
