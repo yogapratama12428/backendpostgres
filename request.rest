@@ -1,0 +1,25 @@
+GET http://192.168.0.123:5000/products
+
+###
+GET http://192.168.0.123:5000/products/1
+
+###
+POST http://192.168.0.123:5000/products
+Content-Type: application/json
+
+{
+    "name": "Aqua",
+    "price": 97000
+}
+
+###
+PATCH http://192.168.0.123:5000/products/3
+Content-Type: application/json
+
+{
+    "name": "product 3 updated",
+    "price": 100000
+}
+
+###
+DELETE http://192.168.0.123:5000/products/2
